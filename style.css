@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+:root{
+  --mainBgColor: #E9E7DA;
+  --gold:#D3A84A;
+  --grey: #9CA496;
+  --lightGreen:#636b46;
+  --heavyGreen:#373f27;
+
+}
+/* *{
+  font-size: 62.5%;
+} */
+body{
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: var(--mainBgColor);
+}
+header{
+  background-color: var(--lightGreen)!important; 
+}
+.text-ibalu{
+  color: var(--gold);
+
+}
+.text-ibalu2{
+  color: var(--heavyGreen);
+
+}
+/* ====================<MENU> ========================= */
+
+#menu a{
+  font-size: 1rem ;
+  font-weight: 500;
+}
+
+#button{
+  font-size: 1.5rem;
+}
+
+/* ====================<CARROUSEL> ========================= */
+.carousel-inner{
+  max-height: 30rem;
+  
+}
+
+/* ====================<MQ PARA PANTALLA SM> ========================= */
+
+@media (max-width:768px){
+  #intro{
+    width: 90% !important;
+  }
+}
+
+.servicio-fila{
+  width: 100% !important;
+  text-align: center;
+}
+
+/* ====================<MQ PARA PANTALLA XSM> ========================= */
+@media(max-width:576px){
+.icono-wrap{
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
+}
